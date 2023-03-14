@@ -1,10 +1,11 @@
 package io.gateway.service;
 
 import org.springframework.cloud.gateway.route.RouteDefinition;
+import org.springframework.context.ApplicationEventPublisherAware;
 
 import java.util.List;
 
-public interface DynamicRouteService {
+public interface DynamicRouteService extends ApplicationEventPublisherAware {
 
     /**
      * 更新路由信息

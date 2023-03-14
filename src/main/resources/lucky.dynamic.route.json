@@ -1,0 +1,24 @@
+[
+  {
+    "id": "lucky-unified-identity-authentication",
+    "predicates": [
+      {
+        "name": "Path",
+        "args": {
+          "_genkey_0": "/lucky/authentication/**"
+        }
+      }
+    ],
+    "filters": [
+      {
+        "name": "RewritePath",
+        "args": {
+          "_genkey_0": "/lucky/authentication/(?<segment>.*)",
+          "_genkey_1": "/authentication/$\\{segment}"
+        }
+      }
+    ],
+    "uri": "lb://lucky-unified-identity-authentication/",
+    "order": 1
+  }
+]

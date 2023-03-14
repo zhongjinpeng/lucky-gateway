@@ -17,7 +17,7 @@ spring:
         server-addr: 127.0.0.1:8848
         group: DEFAULT_GROUP
         file-extension: json
-        data-id: lucky.gateway.json
+        data-id: lucky.dynamic.route.json
     gateway:
       globalcors:
         corsConfigurations:
