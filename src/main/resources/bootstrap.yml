@@ -1,7 +1,6 @@
 logging:
   level:
-    org.springframework.cloud.gateway: DEBUG
-    reactor.netty.http.client: DEBUG
+    root: info
 
 server:
   port: 18000

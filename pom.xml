@@ -32,11 +32,6 @@
             <artifactId>lucky-util</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>io.lucky</groupId>
-            <artifactId>lucky-common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
 
         <!-- Loadbalancer 代替 Ribbon 做客户端负载均衡 -->
         <dependency>
